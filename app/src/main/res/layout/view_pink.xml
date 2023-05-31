@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pink">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/strawberry"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:id="@+id/tag_state_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_below="@+id/image"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/tag_state_description"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Start"
+        android:drawableRight="@drawable/ic_baseline_arrow_circle_right_24"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
